@@ -57,8 +57,6 @@ Once the Imager software is installed, open it on your computer.
 
 <code style="color : grey">  Choose the OS: Click "Choose OS" and select Custom to use the image you downloaded.</code>
 
-<code style="color : grey">  Select the Image: Click on “Choose Image” and browse to find the Jayofelony Pwnagotchi image you downloaded.</code>
-
 <code style="color : grey">  Select the SD Card: Click “Choose SD Card” and select the microSD card that you inserted.</code>
 
 <code style="color : grey">  Write the OS: Click Write to begin flashing the OS onto the SD card. Wait for the process to finish, which may take a few minutes.</code>
