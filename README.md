@@ -62,4 +62,29 @@ Once the Imager software is installed, open it on your computer.
 <code style="color : grey">  Write the OS: Click Write to begin flashing the OS onto the SD card. Wait for the process to finish, which may take a few minutes.</code>
 
 #### ⚠️ Note - If you get an error about the content being different than the written image, make sure the SD card is properly formatted and try again.
+<br>
+
+### 🔌 Step 3: Insert the SD Card and Connect the Raspberry Pi
+1. Insert the SD Card into the Raspberry Pi
+
+<code style="color : grey">Take the microSD card you flashed earlier and carefully insert it into the microSD card slot on the Raspberry Pi Zero 2 W.</code>
+
+2.  Connect the Raspberry Pi to Your Computer
+
+<code style="color : grey">Use a micro USB cable to connect the Raspberry Pi to your computer. Be sure to use the middle micro USB port, as it’s used for both power and data transfer.</code>
+
+3.  Look for the Green Light
+
+<code style="color : grey">Once connected, you should see a green light appear on your Raspberry Pi. This indicates that it powered up and is ready for use.</code>
+
+4.  Troubleshooting No Green Light ⚠️
+
+<code style="color : grey">If there is no green light, it’s most likely that the firmware is corrupted, meaning the OS wasn’t properly flashed onto the SD card. In this case, try flashing the image again.</code>
+
+
+5. Install Drivers for Your Pi
+   
+<code style="color : grey">Once the Raspberry Pi is connected to your computer, the computer will recognize it, but it might not know exactly what the device is. To fix this, we’ll need to install drivers.</code>
+
+<code style="color : grey">Go to this link: Pwnagotchi New Guerilla Guide. https://github.com/Xyl0se/Pwnagotchi-new-guerilla-guide?tab=readme-ov-file#2-basic-connectivity-ssh-ftp-connection-sharing Under Step 2, point 2.1, download the RNDIS drivers for your operating system.</code>
 
