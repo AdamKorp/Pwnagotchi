@@ -34,3 +34,35 @@ Now that you have all your hardware, it’s time to put everything together!
 
 
 ⚠️ Important: Be extra careful not to bend the pins, as they can be easily damaged. If the connection doesn’t feel right, double-check the alignment before applying any pressure.
+
+<br>
+
+### 🛠️🛠️ Step 2: Flash the SD Card with the Correct OS
+
+1. 🍓 Download and Install Raspberry Pi Imager
+First, download the Raspberry Pi Imager Software from the official website: Raspberry Pi Imager. Install it on your computer after downloading. https://www.raspberrypi.com/software/
+
+2. 🖥️ Find the Correct OS
+The original Pwnagotchi image is not compatible with the Raspberry Pi Zero 2 W. To solve this, we’ll use Jayofelony’s Pwnagotchi image, which works with the Pi Zero 2. https://pwnagotchi.org/3rd-party-images/index.html
+
+3. 💾 Prepare the SD Card
+Insert your microSD card  into your computer. Make sure it’s properly formatted and ready for use.
+
+4. ⏯️ Launch Raspberry Pi Imager
+Once the Imager software is installed, open it on your computer.
+
+5. 💾 Flash the OS onto the SD Card
+   
+<code style="color : grey">  Select the Raspberry Pi model: In Raspberry Pi Imager, first, select the Raspberry Pi model (Raspberry Pi Zero 2 W).</code>
+
+<code style="color : grey">  Choose the OS: Click "Choose OS" and select Custom to use the image you downloaded.</code>
+
+<code style="color : grey">  Select the Image: Click on “Choose Image” and browse to find the Jayofelony Pwnagotchi image you downloaded.</code>
+
+<code style="color : grey">  Select the SD Card: Click “Choose SD Card” and select the microSD card that you inserted.</code>
+
+<code style="color : grey">  Write the OS: Click Write to begin flashing the OS onto the SD card. Wait for the process to finish, which may take a few minutes.</code>
+
+⚠️ Note
+If you get an error about the content being different than the written image, make sure the SD card is properly formatted and try again.
+
