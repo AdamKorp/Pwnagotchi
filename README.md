@@ -19,3 +19,18 @@ To build your own Pwnagotchi, you’ll need the following components:
 💾 MicroSD Card <code style="color : grey"> - Used to store the Pwnagotchi operating system and data.</code>
 
 🔌 Micro USB Cable <code style="color : grey"> - For charging, powering, or connecting to the Pi for setup.</code>
+
+<br>
+
+### 🛠️ Step 1: Attach the Screen to the Raspberry Pi
+
+Now that you have all your hardware, it’s time to put everything together!
+
+
+1. Align the pins: Carefully align the pins of the E-Ink Display  with the GPIO pins on the Raspberry Pi.
+
+
+2. Attach the screen: Gently press the display onto the Pi's GPIO pins. Make sure it fits, but don’t force it.
+
+
+⚠️ Important: Be extra careful not to bend the pins, as they can be easily damaged. If the connection doesn’t feel right, double-check the alignment before applying any pressure.
