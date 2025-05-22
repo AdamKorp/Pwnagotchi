@@ -82,9 +82,36 @@ Once the Imager software is installed, open it on your computer.
 <code style="color : grey">If there is no green light, it’s most likely that the firmware is corrupted, meaning the OS wasn’t properly flashed onto the SD card. In this case, try flashing the image again.</code>
 
 
-5. Install Drivers for Your Pi
+5. Download Drivers for Your Pi
    
 <code style="color : grey">Once the Raspberry Pi is connected to your computer, the computer will recognize it, but it might not know exactly what the device is. To fix this, we’ll need to install drivers.</code>
 
 <code style="color : grey">Go to this link: Pwnagotchi New Guerilla Guide. https://github.com/Xyl0se/Pwnagotchi-new-guerilla-guide?tab=readme-ov-file#2-basic-connectivity-ssh-ftp-connection-sharing Under Step 2, point 2.1, download the RNDIS drivers for your operating system.</code>
+
+<br>
+
+### ⚙️ Step 4: Manually Install the Driver via Device Manager
+
+Once the RNDIS drivers are downloaded:
+
+
+🔍 Open Device Manager on your computer.
+
+
+🔌 Look for the Raspberry Pi device (usually under Ports (COM & LPT)).
+
+
+🖱️ Right-click the device and select Properties.
+
+
+📁 Go to the Driver tab → click Update Driver → choose Browse my computer for drivers.
+
+
+📂 Select Let me pick from a list of available drivers on my computer → click Have Disk.
+
+
+🔎 Click Browse, find and select the RNDIS.inf file you downloaded.
+
+
+✅ Click OK, then Next, and the driver should install successfully.
 
