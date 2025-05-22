@@ -189,3 +189,5 @@ You’ll be guided through several questions:
 Once setup is complete, Pwnagotchi will reboot automatically in about 5 seconds.
 
 ⏳ Give it 1–2 minutes — then the E-Ink display will show the Pwnagotchi interface.
+
+#### ⚠️ Note - If you cannot SSH into the device (e.g., timeout or unreachable), double-check that your RNDIS network adapter is still set to IP address 10.0.0.1
