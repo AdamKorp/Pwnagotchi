@@ -115,3 +115,77 @@ Once the RNDIS drivers are downloaded:
 
 ✅ Click OK, then Next, and the driver should install successfully.
 
+<br>
+
+### 🛠️ Step 5: SSH into Your Pwnagotchi and Complete the Setup
+
+
+1. 🌐 Assign a Static IP Address to the RNDIS Adapter
+
+
+<code style="color : grey">Open your Network Connections on Windows. You’ll see a new Ethernet adapter labeled something like "RNDIS Gadget".</code>
+
+<code style="color : grey">Right-click it → Properties → select Internet Protocol Version 4 (TCP/IPv4) → click Properties.</code>
+
+   Set the IP address to 10.0.0.1
+
+   Set the Subnet mask to 255.255.255.0
+
+   Leave the rest blank and click OK
+
+
+
+2. 🔁 Enable Internet Sharing
+
+<code style="color : grey">Now, find your main internet adapter (either Wi-Fi or Ethernet): Right-click it → Properties</code>
+
+<code style="color : grey">Go to the Sharing tab, Check “Allow other network users to connect through this computer’s Internet connection”</code>
+
+<code style="color : grey">In the drop-down below, select your Pwnagotchi Ethernet adapter (RNDIS Gadget). This gives your Pwnagotchi access to the internet via your PC.</code>
+
+3. 🖥️ SSH into the Pwnagotchi
+
+Open PowerShell or Command Prompt and type:
+
+         ssh pi@10.0.0.2
+   
+The default password is: raspberry
+
+4. 🔒 Change Default Passwords
+Once you're in:
+
+Type ```passwd``` to change the password for the pi user
+
+Then, run: ```sudo passwd root```
+
+Set a new password for the root user
+
+5. 🧙 Run the Setup Wizard
+
+Start the Pwnagotchi configuration by running:
+
+         sudo pwnagotchi --wizard
+         
+You’ll be guided through several questions:
+
+❓ Restore previous config? → Type N (No – first installation)
+
+⚠️ Sure to overwrite current config? → Type Y
+
+📝 Choose a name → Pick any name for your Pwnagotchi
+
+🛑 Blocklist Wi-Fi networks → Enter your home or work networks to avoid hacking them
+
+📵 Allow Bluetooth tethering? → Type N
+
+🖥️ Enable display? → Type Y
+
+🖼️ Display type? → If you have Waveshare v4, type: ws4
+
+🎨 Background color? → Choose white (Y) or black (N) — your preference (I chose white)
+
+6. 🔁 Automatic Reboot
+   
+Once setup is complete, Pwnagotchi will reboot automatically in about 5 seconds.
+
+⏳ Give it 1–2 minutes — then the E-Ink display will show the Pwnagotchi interface.
