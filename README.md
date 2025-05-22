@@ -188,6 +188,34 @@ You’ll be guided through several questions:
    
 Once setup is complete, Pwnagotchi will reboot automatically in about 5 seconds.
 
-⏳ Give it 1–2 minutes — then the E-Ink display will show the Pwnagotchi interface.
+Give it 1-2 minutes - then the E-Ink display will show the Pwnagotchi interface.
 
 #### ⚠️ Note - If you cannot SSH into the device (e.g., timeout or unreachable), double-check that your RNDIS network adapter is still set to IP address 10.0.0.1
+
+<br>
+
+### 🛠️ Step 6: Attach the PiSugar Battery Board
+
+Now that your Pwnagotchi is configured and working, it’s time to make it portable by connecting the PiSugar 3 battery board to your Raspberry Pi.
+
+1. 🔧 Gently Remove the E-Ink Screen
+
+<code style="color : grey">To attach the battery board, you’ll first need to disconnect the E-Ink screen. Do this gently and slowly to avoid bending or damaging the GPIO pins.</code>
+
+2. 🔋 Align the PiSugar Battery Board
+
+<code style="color : grey">Take the PiSugar 3 board and line up the gold pogo pins so they make proper contact with the corresponding GPIO pins on the Raspberry Pi. Proper alignment is important - make sure everything is lined up exactly before continuing.</code>
+
+3. 🧷 Secure the Battery Board
+
+<code style="color : grey">Once the board is correctly aligned, screw it into place using the included screws. This will keep it firmly connected to your Raspberry Pi.</code>
+
+4. 🧲 Attach the Battery
+
+<code style="color : grey">Place the battery onto the magnetic base of the PiSugar board. The built-in magnet will hold it securely.</code>
+
+5. 🔌 Reconnect the E-Ink Screen
+
+<code style="color : grey">Now, carefully reconnect the screen back to the GPIO header. Make sure the pins slide in straight and aren't bent or misaligned.</code>
+
+6. ✅ Your Pwnagotchi is Ready!
